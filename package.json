@@ -1,0 +1,28 @@
+{
+  "name": "blocksenital",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Janakiraman1021/BlockSenital#readme",
+  "bugs": {
+    "url": "https://github.com/Janakiraman1021/BlockSenital/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janakiraman1021/BlockSenital.git"
+  },
+  "license": "ISC",
+  "author": "Janakiraman Anandhi",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "web3": "^4.16.0"
+  }
+}
