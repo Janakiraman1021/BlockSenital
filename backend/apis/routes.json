@@ -1,0 +1,56 @@
+[
+  {
+    "method": "POST",
+    "route": "/api/auth/login",
+    "role": "All",
+    "description": "Login and get JWT"
+  },
+  {
+    "method": "POST",
+    "route": "/api/complaint/register",
+    "role": "User",
+    "description": "Register new complaint"
+  },
+  {
+    "method": "PUT",
+    "route": "/api/complaint/update/:id",
+    "role": "User/Admin",
+    "description": "Update complaint"
+  },
+  {
+    "method": "GET",
+    "route": "/api/complaint/my",
+    "role": "User",
+    "description": "List user’s complaints"
+  },
+  {
+    "method": "GET",
+    "route": "/api/complaint/all",
+    "role": "Admin",
+    "description": "List all complaints"
+  },
+  {
+    "method": "POST",
+    "route": "/api/evidence/upload",
+    "role": "Officer",
+    "description": "Upload evidence to IPFS + SC"
+  },
+  {
+    "method": "POST",
+    "route": "/api/fir/upload",
+    "role": "Officer",
+    "description": "Upload FIR to IPFS"
+  },
+  {
+    "method": "POST",
+    "route": "/api/admin/level/:id",
+    "role": "Admin",
+    "description": "Set complaint level"
+  },
+  {
+    "method": "POST",
+    "route": "/api/admin/add-officer",
+    "role": "Admin",
+    "description": "Authorize new officer address"
+  }
+]
